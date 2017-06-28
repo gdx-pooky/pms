@@ -1,0 +1,8 @@
+SELECT
+ban_word,
+grade
+FROM
+local_ban_list
+WHERE
+lexicon_id = {{lexicon_id}}
+AND `status` = 1

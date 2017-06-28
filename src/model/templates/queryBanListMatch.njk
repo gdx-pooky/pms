@@ -1,0 +1,10 @@
+SELECT
+grade
+FROM
+local_ban_list
+WHERE
+`status` = 1
+AND lexicon_id = {{type}}
+AND grade = 1
+AND ban_word IN ({{words}})
+LIMIT 1

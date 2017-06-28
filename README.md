@@ -1,1 +1,2 @@
-# pms
+# PMS
+Prohibited words Server
